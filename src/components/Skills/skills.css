@@ -1,24 +1,46 @@
-.experience__container {
+
+.experience__frontend {
 	display: grid;
-  place-items: center;
-	gap: 1rem;	
-  background: var(--color-bg-variant);
-	padding: 2.4rem 5rem;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 1rem;
+}
+
+.experience__frontend article {
+	background: var(--color-bg-variant);
+	padding: 1rem 1.5rem;
 	border-radius: 2rem;
 	border: 1px solid transparent;
 	transition: var(--transition);
+	display: grid;
+	place-items: center;
 }
-
-.experience__container:hover {
+.experience__frontend article:hover {
 	background: transparent;
 	border-color: var(--color-primary-variant);
 	cursor: default;
 }
 
-.experience__frontend {
-display: flex;
-justify-content: space-between;
-gap: 2rem;
-
+/* ------------- MEDIUM DEVICES ------------ */
+@media screen and (max-width: 1024px) {
+.experience__frontend article {
+  padding: 1rem 1rem;
+	font-size: 0.6rem;
+}
+.experience__container {
+  width: 80%;
+  padding: 1rem;
+  margin: 0 auto;
+}
 }
 
+/* ------------- SMALL DEVICES ------------ */
+@media screen and (max-width: 680px) {
+ .experience__frontend {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+  .experience__container {
+    width: 100%;
+    padding: 1rem 1rem;
+  }
+  }

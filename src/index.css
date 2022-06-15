@@ -54,7 +54,7 @@ h1 {
 }
 
 section {
-	margin-top: 3rem;
+	margin-top: 2rem;
 }
 
 section > h2,
@@ -65,7 +65,7 @@ section > h5 {
 
 section > h2 {
 	color: var(--color-white);
-	margin-bottom: 1.5rem;
+	margin-bottom: 1rem;
 }
 
 .text-light {
@@ -114,17 +114,11 @@ img {
 	.container {
 		width: var(--container-w-md);
 	}
-	section {
-		margin-top: 2rem;
-	}
 }
 
 /* ------------- SMALL DEVICES ------------ */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
 	.container {
 		width: var(--container-w-sm);
-	}
-	section > h2 {
-		margin-bottom: 2rem;
 	}
 }

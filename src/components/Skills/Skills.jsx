@@ -2,54 +2,41 @@ import React from 'react'
 import { BiMessageSquareCheck } from 'react-icons/bi'
 import './skills.css'
 
-
 const Skills = () => {
-  return (
+	return (
 		<section id='experience'>
+			<h2>My skills in Frontend Development</h2>
 			<div className='container experience__container'>
-				<h2>My skills in Frontend Development</h2>
 				<div className='experience__frontend'>
 					<article className='experience__details'>
-						<BiMessageSquareCheck className='experience__icon' />
-						<div>
-							<h4>HTML</h4>
-							<small className='text-light'>Experienced</small>
-						</div>
+						<h4>HTML</h4>
 					</article>
 					<article className='experience__details'>
-						<BiMessageSquareCheck className='experience__icon' />
-						<div>
-							<h4>JavaScript</h4>
-							<small className='text-light'>Experienced</small>
-						</div>
+						<h4>CSS</h4>
 					</article>
 					<article className='experience__details'>
-						<BiMessageSquareCheck className='experience__icon' />
-						<div>
-							<h4>CSS</h4>
-							<small className='text-light'>Experienced</small>
-						</div>
+						<h4>Sass/Less</h4>
 					</article>
 					<article className='experience__details'>
-						<BiMessageSquareCheck className='experience__icon' />
-						<div>
-							<h4>React</h4>
-							<small className='text-light'>Experienced</small>
-						</div>
+						<h4>Tailwind</h4>
 					</article>
 					<article className='experience__details'>
-						<BiMessageSquareCheck className='experience__icon' />
-						<div>
-							<h4>Bootstrap</h4>
-							<small className='text-light'>Experienced</small>
-						</div>
+						<h4>StyledComponents</h4>
 					</article>
 					<article className='experience__details'>
-						<BiMessageSquareCheck className='experience__icon' />
-						<div>
-							<h4>Tailwind</h4>
-							<small className='text-light'>Experienced</small>
-						</div>
+						<h4>JavaScript</h4>
+					</article>
+					<article className='experience__details'>
+						<h4>React</h4>
+					</article>
+					<article className='experience__details'>
+						<h4>TypeScript</h4>
+					</article>
+					<article className='experience__details'>
+						<h4>Git/GitHub</h4>
+					</article>
+					<article className='experience__details'>
+						<h4>Redux/ReduxToolKit</h4>
 					</article>
 				</div>
 			</div>
