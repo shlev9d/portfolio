@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiMessageSquareCheck } from 'react-icons/bi'
 import './skills.css'
 
 const Skills = () => {
