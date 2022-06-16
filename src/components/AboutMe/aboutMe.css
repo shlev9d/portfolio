@@ -51,12 +51,6 @@ width: 30%;
 margin: 1rem auto 2rem;
 }
 
-.about__content{
-  display: grid;
-  place-items: center;
-
-}
-
 .about__content p {
   margin: 1rem 0 2rem;
   text-align: center;

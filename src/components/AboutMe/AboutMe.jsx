@@ -15,7 +15,6 @@ const AboutMe = () => {
 				</div>
 				<div className='about__content'>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cumque amet praesentium ullam pariatur laudantium sequi architecto asperiores ipsum, inventore quae perferendis doloribus ad assumenda? Ex deserunt aliquid facere numquam?</p>
-          <a href="/" className='btn'>Let's Talk</a>
         </div>
 			</div>
 		</section>
