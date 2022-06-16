@@ -59,9 +59,6 @@ textarea {
 	color: var(--color-white);
 }
 
-.form__button{
-  
-}
 
 @media screen and (max-width: 1024px) {
 	.container.contact__container {

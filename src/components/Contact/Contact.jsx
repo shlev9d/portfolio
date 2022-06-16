@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './contact.css'
-import { FiMail } from 'react-icons/fi'
 import { BiPhoneCall } from 'react-icons/bi'
 import { send } from 'emailjs-com'
 
@@ -61,7 +60,7 @@ return (
 			</form>
 
 			<article className='contact__option'>
-				<a href='tel:+48577429854' target={'_blank'}>
+				<a href='tel:+48577429854' target={'_blank'} rel="noreferrer">
 					<BiPhoneCall className='contact__icon' />
 					<h4>+48577429854</h4>
 					<h5>Poland,Warsaw</h5>
