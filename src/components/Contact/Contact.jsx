@@ -1,47 +1,75 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './contact.css'
 import { FiMail } from 'react-icons/fi'
+import { BiPhoneCall } from 'react-icons/bi'
+import { send } from 'emailjs-com'
 
 const Contact = () => {
-	return (
-		<section id='contact'>
-			<h2>Contact Me</h2>
-			<div className='container contact__container'>
-				{/* <div className='contact__options'> */}
-				<article className='contact__option'>
-					<FiMail className='contact__icon' />
-					<h4>Email</h4>
-					<h5>shlev9d@gmail.com</h5>
-					<a href='/' target={'_blank'}>
-						Send a message
-					</a>
-				</article>
-				{/* </div> */}
+const [name, setName] = useState('')
+const [email, setEmail] = useState('')
+const [text, setText] = useState('')
+const sendMail = e => {
+	e.preventDefault()
+	send(
+		'service_hy5jjzb',
+		'template_3tk73ms',
+		{ name, email, text },
+		'5tJGQcmXy66v4adxe'
+	)
+		.then(res => console.log('successfully', res.status, res.text))
+		.catch(err => console.log('error', err))
+		setName('')
+		setEmail('')
+		setText('')
+}
 
-				<form action=''>
-					<div className='form__input'>
-						<input
+return (
+	<section id='contact'>
+		<h2>Contact Me</h2>
+		<div className='container contact__container'>
+			<form onSubmit={sendMail}>
+				<div className='form__input'>
+					<input
 						type='text'
 						name='name'
+						value={name}
+						onChange={e => setName(e.target.value)}
 						placeholder='Your Full Name'
 						required
 					/>
-					<input type='email' name='email' placeholder='Your Email' required />
-					</div>
-					
-					<textarea
-						name='message'
-						rows='7'
-						placeholder='Your Message'
+					<input
+						type='email'
+						name='email'
+						placeholder='Your Email'
+						value={email}
+						onChange={e => setEmail(e.target.value)}
 						required
-					></textarea>
-					<button className='btn btn-primary' type='submit'>
-						Send Message
-					</button>
-				</form>
-			</div>
-		</section>
-	)
+					/>
+				</div>
+
+				<textarea
+					name='message'
+					rows='7'
+					placeholder='Your Message'
+					value={text}
+					onChange={e => setText(e.target.value)}
+					required
+				/>
+				<button className='btn btn-primary form__button' type='submit'>
+					Send Message for my Email
+				</button>
+			</form>
+
+			<article className='contact__option'>
+				<a href='tel:+48577429854' target={'_blank'}>
+					<BiPhoneCall className='contact__icon' />
+					<h4>+48577429854</h4>
+					<h5>Poland,Warsaw</h5>
+				</a>
+			</article>
+		</div>
+	</section>
+)
 }
 
 export default Contact

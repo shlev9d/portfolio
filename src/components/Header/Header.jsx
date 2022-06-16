@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderSocials from './HeaderSocials'
+import HeaderSocials from '../HeaderSocials/HeaderSocials'
 import CV from '../../assets/Aleksandr Shliaviada.pdf'
 import './header.css'
 

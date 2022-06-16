@@ -6,7 +6,7 @@ import './aboutMe.css'
 const AboutMe = () => {
 	return (
 		<section id='about'>
-          <h2>About Me</h2>
+			<h2>About Me</h2>
 			<div className='container about__container'>
 				<div className='about__me'>
 					<div className='about__me-foto'>
@@ -14,8 +14,15 @@ const AboutMe = () => {
 					</div>
 				</div>
 				<div className='about__content'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cumque amet praesentium ullam pariatur laudantium sequi architecto asperiores ipsum, inventore quae perferendis doloribus ad assumenda? Ex deserunt aliquid facere numquam?</p>
-        </div>
+					<p>
+						I am 26 years old. I'm from Belarus, but now live in Warsaw. I have
+						been studying Frontend Developent for 1.5 years.Have some experience
+						in writing projects on React, React+Typescript,
+						React+Redux/ReduxToolkit. Use various preprocessors and libraries
+						for layout. I would like to get experience in team commercial
+						development. In future i plan to learn Next.js, ReactNative.
+					</p>
+				</div>
 			</div>
 		</section>
 	)

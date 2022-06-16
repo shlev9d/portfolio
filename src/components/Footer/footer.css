@@ -1,0 +1,19 @@
+section{
+margin: 4rem;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container > .socials {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.3rem;
+}
+
+.footer__container > .socials > a {
+  color: var(--color-light);
+}

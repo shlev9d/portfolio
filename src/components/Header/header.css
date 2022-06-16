@@ -10,10 +10,9 @@ header {
   text-align: center;
 }
 
-.header__socials {
+.header__container > .socials {
 display: flex;
   gap: 1.2rem;
   margin: 0.5rem;
   font-size: 2.5rem;
-
 }

@@ -6,7 +6,7 @@ import { RiTelegramLine } from 'react-icons/ri'
 
 const HeaderSocials = () => {
 	return (
-		<div className='header__socials'>
+		<div className='socials'>
 			<a href='https://t.me/shlev9d' target={'_blank'} rel='noreferrer'>
 				<RiTelegramLine />
 			</a>
