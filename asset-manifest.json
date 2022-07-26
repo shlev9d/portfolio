@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.27809855.css",
-    "main.js": "/portfolio/static/js/main.0b44c4db.js",
+    "main.css": "/portfolio/static/css/main.31b3cca3.css",
+    "main.js": "/portfolio/static/js/main.c6a6ffc0.js",
     "static/media/foto2.png": "/portfolio/static/media/foto2.d275a9e03af872dcb551.png",
     "static/media/Aleksandr Shliaviada.pdf": "/portfolio/static/media/Aleksandr Shliaviada.590a91aefc213aabae74.pdf",
     "index.html": "/portfolio/index.html",
-    "main.27809855.css.map": "/portfolio/static/css/main.27809855.css.map",
-    "main.0b44c4db.js.map": "/portfolio/static/js/main.0b44c4db.js.map"
+    "main.31b3cca3.css.map": "/portfolio/static/css/main.31b3cca3.css.map",
+    "main.c6a6ffc0.js.map": "/portfolio/static/js/main.c6a6ffc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.27809855.css",
-    "static/js/main.0b44c4db.js"
+    "static/css/main.31b3cca3.css",
+    "static/js/main.c6a6ffc0.js"
   ]
 }
