@@ -15,12 +15,12 @@ const AboutMe = () => {
 				</div>
 				<div className='about__content'>
 					<p>
-						I am 26 years old. I'm from Belarus, but now live in Warsaw. I have
-						been studying Frontend Development for 1.5 years. Have some experience
-						in writing projects on React, React+Typescript,
+						I am 26 years old. I'm from Belarus. Now live in Warsaw and in Minsk.
+						I have been studying Frontend Development for 1.5 years. Have
+						experience in writing projects in JS, React, React + Typescript,
 						React+Redux/ReduxToolkit. Use various preprocessors and libraries
 						for layout. I would like to get experience in team commercial
-						development. In future i plan to learn Next.js, ReactNative.
+						development and improve my skills.
 					</p>
 				</div>
 			</div>

@@ -59,13 +59,22 @@ return (
 				</button>
 			</form>
 
-			<article className='contact__option'>
-				<a href='tel:+48577429854' target={'_blank'} rel="noreferrer">
-					<BiPhoneCall className='contact__icon' />
-					<h4>+48577429854</h4>
-					<h5>Poland,Warsaw</h5>
-				</a>
-			</article>
+			<div className='contact__tel'>
+				<article className='contact__option'>
+					<a href='tel:+48577429854' target={'_blank'} rel='noreferrer'>
+						<BiPhoneCall className='contact__icon' />
+						<h4>+48577429854</h4>
+						<h5>Poland,Warsaw</h5>
+					</a>
+				</article>
+				<article className='contact__option'>
+					<a href='tel:+375336393676' target={'_blank'} rel='noreferrer'>
+						<BiPhoneCall className='contact__icon' />
+						<h4>+375336393676</h4>
+						<h5>Minsk,Belarus</h5>
+					</a>
+				</article>
+			</div>
 		</div>
 	</section>
 )

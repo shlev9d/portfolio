@@ -10,6 +10,7 @@ const Header = () => {
 				<h5 className='text-light'>Hello I'm</h5>
 				<h1>Aleksandr Shliaviada</h1>
 				<h5 className='text-light'>Front-end Developer</h5>
+				<h4 >Warsaw(Poland)/Minsk(Belarus)</h4>
 			<HeaderSocials />
 			<a href={CV} download className='btn btn-primary'>
 				Download CV
