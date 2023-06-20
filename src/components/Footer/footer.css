@@ -11,7 +11,7 @@ margin: 4rem;
 .footer__container > .socials {
   display: flex;
   gap: 1.2rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 .footer__container > .socials > a {
