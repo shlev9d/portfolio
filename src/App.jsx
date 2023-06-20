@@ -2,13 +2,13 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import Skills from "./components/Skills/Skills";
+import SkillsSlider from "./components/SkillsSlider/SkillsSlider";
 
 function App() {
   return (
     <>
     <Header />
-    <Skills />
+    <SkillsSlider />
     <AboutMe />
     <Contact />
     <Footer />

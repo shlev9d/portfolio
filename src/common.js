@@ -13,3 +13,33 @@ export const getConfig = formData => {
 	}
 	return config
 }
+
+export const totlaSkills = [
+	{
+		category: 'Basic',
+		skills: ['HTML', 'JavaScript', 'TypeScript'],
+	},
+	{
+		category: 'Layout',
+		skills: ['CSS/SCSS', 'Tailwind CSS', 'Material UI', 'Styled Components'],
+	},
+	{
+		category: 'Libraries and Frameworks',
+		skills: [
+			'React',
+			'NextJS',
+			'Angular (basic)',
+			'ReactQuery',
+			'React Testing Library',
+			'React Router Dom',
+		],
+	},
+	{
+		category: 'State managers',
+		skills: ['Redux', 'ReduxToolKit', 'ReduxThunk', 'Zustand'],
+	},
+	{
+		category: 'Other',
+		skills: ['Git', 'GitHub', 'Webpack', 'Axios', 'RestAPI', 'SOLID'],
+	},
+]
