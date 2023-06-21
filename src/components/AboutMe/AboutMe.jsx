@@ -15,11 +15,13 @@ const AboutMe = () => {
 				</div>
 				<div className='about__content'>
 					<p>
-						An active and purposeful person in life. I like to learn new things
-						face challenges and look for ways to solve them. I studied Frontend
-						3 years and now i have strong experience in front-end development. Wrote
-						projects on JS, React, NextJS using Typescript,
-						React+Redux/ReduxToolkit, ReactQuery, as well as various
+						Hi, my name's Alexander and I may be your future front-end
+						developer. <br /> I can say that I am an active and purposeful
+						person in life. I like to learn new things face challenges and look
+						for ways to solve them. I studied Frontend 3 years and now have
+						strong experience in front-end development. <br />
+						Wrote projects on JS, React, NextJS using Typescript,
+						React+Redux, ReduxToolkit, ReactQuery, as well as various
 						preprocessors and libraries for layout. Always open for
 						communication and new technologies
 					</p>
