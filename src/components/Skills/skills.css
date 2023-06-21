@@ -32,12 +32,6 @@
 	font-size: 0.9rem;
 }
 
-.experience__skill:hover {
-	background: transparent;
-	border-color: var(--color-primary-variant);
-	cursor: default;
-}
-
 /* ------------- SMALL DEVICES ------------ */
 @media screen and (max-width: 680px) {
 	.experience__details {

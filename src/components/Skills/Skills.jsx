@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Slider from 'react-slick'
-import { totlaSkills } from '../../common'
-import './skillsSlider.css'
+import './skills.css'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import { allSkills } from '../../common'
 
-const SkillsSlider = () => {
+const Skills = () => {
 	const [displayWidth, setDisplayWidth] = useState(window.innerWidth)
 
 	useEffect(() =>{
@@ -28,7 +28,7 @@ const SkillsSlider = () => {
 			<h2>My skills in Frontend Development</h2>
 			<div className='container experience__container'>
 				<Slider {...settings}>
-					{totlaSkills.map(({ category, skills }) => (
+					{allSkills.map(({ category, skills }) => (
 						<article className='experience__details' key={category}>
 							<h4>{category}</h4>
 							<div className='experience__skills'>
@@ -46,4 +46,4 @@ const SkillsSlider = () => {
 	)
 }
 
-export default SkillsSlider
+export default Skills
