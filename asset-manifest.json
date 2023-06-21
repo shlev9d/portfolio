@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.31b3cca3.css",
-    "main.js": "/portfolio/static/js/main.c6a6ffc0.js",
+    "main.css": "/portfolio/static/css/main.f97ad403.css",
+    "main.js": "/portfolio/static/js/main.9d449729.js",
     "static/media/foto2.png": "/portfolio/static/media/foto2.d275a9e03af872dcb551.png",
     "static/media/Aleksandr Shliaviada.pdf": "/portfolio/static/media/Aleksandr Shliaviada.590a91aefc213aabae74.pdf",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.31b3cca3.css.map": "/portfolio/static/css/main.31b3cca3.css.map",
-    "main.c6a6ffc0.js.map": "/portfolio/static/js/main.c6a6ffc0.js.map"
+    "main.f97ad403.css.map": "/portfolio/static/css/main.f97ad403.css.map",
+    "main.9d449729.js.map": "/portfolio/static/js/main.9d449729.js.map"
   },
   "entrypoints": [
-    "static/css/main.31b3cca3.css",
-    "static/js/main.c6a6ffc0.js"
+    "static/css/main.f97ad403.css",
+    "static/js/main.9d449729.js"
   ]
 }
