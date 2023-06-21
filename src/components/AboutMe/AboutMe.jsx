@@ -15,12 +15,13 @@ const AboutMe = () => {
 				</div>
 				<div className='about__content'>
 					<p>
-						I am 26 years old. I'm from Belarus. Now live in Warsaw and in Minsk.
-						I have been studying Frontend Development for 1.5 years. Have
-						experience in writing projects in JS, React, React + Typescript,
-						React+Redux/ReduxToolkit. Use various preprocessors and libraries
-						for layout. I would like to get experience in team commercial
-						development and improve my skills.
+						An active and purposeful person in life. I like to learn new things
+						face challenges and look for ways to solve them. I studied Frontend
+						3 years and now i have strong experience in front-end development. Wrote
+						projects on JS, React, NextJS using Typescript,
+						React+Redux/ReduxToolkit, ReactQuery, as well as various
+						preprocessors and libraries for layout. Always open for
+						communication and new technologies
 					</p>
 				</div>
 			</div>
