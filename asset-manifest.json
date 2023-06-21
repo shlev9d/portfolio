@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0889bf68.css",
-    "main.js": "/portfolio/static/js/main.224a4293.js",
+    "main.css": "/portfolio/static/css/main.ab5634ea.css",
+    "main.js": "/portfolio/static/js/main.16141e39.js",
     "static/media/foto2.png": "/portfolio/static/media/foto2.d275a9e03af872dcb551.png",
+    "static/media/shoes-shop.PNG": "/portfolio/static/media/shoes-shop.a7b9cdd7873fd8bab5be.PNG",
+    "static/media/weather.PNG": "/portfolio/static/media/weather.4f5dad4192c86ff3b620.PNG",
     "static/media/Aleksandr Shliaviada.pdf": "/portfolio/static/media/Aleksandr Shliaviada.590a91aefc213aabae74.pdf",
+    "static/media/calculator.PNG": "/portfolio/static/media/calculator.801418375bf6983f85a5.PNG",
+    "static/media/qr-coder.PNG": "/portfolio/static/media/qr-coder.b3e1ca6708a8003b776e.PNG",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.0889bf68.css.map": "/portfolio/static/css/main.0889bf68.css.map",
-    "main.224a4293.js.map": "/portfolio/static/js/main.224a4293.js.map"
+    "main.ab5634ea.css.map": "/portfolio/static/css/main.ab5634ea.css.map",
+    "main.16141e39.js.map": "/portfolio/static/js/main.16141e39.js.map"
   },
   "entrypoints": [
-    "static/css/main.0889bf68.css",
-    "static/js/main.224a4293.js"
+    "static/css/main.ab5634ea.css",
+    "static/js/main.16141e39.js"
   ]
 }
