@@ -4,7 +4,7 @@ import { FiGithub } from 'react-icons/fi'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { RiTelegramLine } from 'react-icons/ri'
 
-const HeaderSocials = () => {
+const Socials = () => {
 	return (
 		<div className='socials'>
 			<a href='https://t.me/shlev9d' target={'_blank'} rel='noreferrer'>
@@ -31,4 +31,4 @@ const HeaderSocials = () => {
 	)
 }
 
-export default HeaderSocials
+export default Socials

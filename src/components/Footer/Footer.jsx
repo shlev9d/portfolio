@@ -1,12 +1,12 @@
 import React from 'react'
-import HeaderSocials from '../HeaderSocials/HeaderSocials'
 import './footer.css'
+import Socials from './../Socials/Socials'
 
 const Footer = () => {
 	return (
 		<section>
 			<div className='container footer__container'>
-				<HeaderSocials />
+				<Socials />{' '}
 			</div>
 		</section>
 	)
