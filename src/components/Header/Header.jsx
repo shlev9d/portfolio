@@ -12,9 +12,9 @@ const Header = () => {
 				<h5 className='text-light'>Front-end Developer</h5>
 				<h4>Warsaw(Poland)/Minsk(Belarus)</h4>
 				<Socials />{' '}
-				<a href={CV} download className='btn btn-primary'>
+				{/* <a href={CV} download className='btn btn-primary'>
 					Download CV
-				</a>
+				</a> */}
 			</div>
 		</header>
 	)
